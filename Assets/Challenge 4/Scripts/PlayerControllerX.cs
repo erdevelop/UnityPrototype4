@@ -20,7 +20,7 @@ public class PlayerControllerX : MonoBehaviour
         playerRb = GetComponent<Rigidbody>();
         focalPoint = GameObject.Find("Focal Point");
     }
-
+    
     void Update()
     {
         // Add force to player in direction of the focal point (and camera)
